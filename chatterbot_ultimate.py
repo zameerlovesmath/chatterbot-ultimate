@@ -2,7 +2,6 @@ import os
 import openai
 import time
 import wolframalpha
-import getpass
 from steamship import Steamship
 Wolfram_Key = "YOUR WOLFRAM ALPHA API KEY"
 openai.api_key = "YOUR OPENAI API KEY"
