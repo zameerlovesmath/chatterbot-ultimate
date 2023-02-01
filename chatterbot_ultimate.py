@@ -154,7 +154,7 @@ class ChatterBot:
           os.system("clear")
           ChatterBot.main()
   def main():
-    print("Welcome to ChatterBot")
+    print("Welcome to ChatterBot Ultimate")
     time.sleep(1.2)
     print("Made by the legendary: ")
     time.sleep(1.2)
