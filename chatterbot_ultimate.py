@@ -4,10 +4,9 @@ import time
 import wolframalpha
 import getpass
 from steamship import Steamship
-Wolfram_Key = getpass.getpass("Enter your Wolfram Alpha API Key: ")
-openai.api_key = getpass.getpass("Enter your OpenAI API Key: ")
-steamship_api_key = getpass.getpass("Enter your Steamship API key: ")
-os.system("clear")
+Wolfram_Key = "YOUR WOLFRAM ALPHA API KEY"
+openai.api_key = "YOUR OPENAI API KEY"
+steamship_api_key = "YOUR STEAMSHIP API KEY"
 client=wolframalpha.Client(Wolfram_Key)
 pkg = Steamship.use("chatbot-engine", api_key = steamship_api_key)
 class ChatterBot:
